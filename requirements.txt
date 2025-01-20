@@ -5,7 +5,7 @@ langchain
 # Package for Langchain-openai if needed working with open AI API key
 # ==================================================================
 langchain-openai
-
+langchain-google-genai
 # Package for Langchain-Community
 # ==============================
 langchain-community
