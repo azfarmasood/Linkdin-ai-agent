@@ -1,0 +1,47 @@
+# Package for Langchain
+# =================
+langchain
+
+# Package for Langchain-openai if needed working with open AI API key
+# ==================================================================
+langchain-openai
+
+# Package for Langchain-Community
+# ==============================
+langchain-community
+
+# Package for Langchain-Core
+# ==========================
+langchain-core
+
+# Package for Langchainhub
+# ========================
+langchainhub
+
+# black for formatting python code
+# =================================
+black
+
+# python-dotenv the package load Envoirement Variables:
+# ====================================================
+python-dotenv
+
+# langchain-ollama package:
+# ==========================
+langchain-ollama
+
+# requests liabrary:
+# ==================
+requests
+
+# Backend API Development With FastAPI
+# ====================================================
+fastapi
+
+# Sqlmodel Saving User Querys in Our Databases:
+# ====================================================
+sqlmodel
+
+# Liabrary For Run Backend Applications:
+# ====================================================
+uvicorn[standard]
