@@ -2,8 +2,16 @@ from fastapi import FastAPI, HTTPException
 from fastapi.responses import JSONResponse
 from langchain_linkdin_search_agent.linkdin_agent import linkedin_search_agent
 from langchain_linkdin_search_agent.models.summary_model import Agent_Response
-
+from fastapi.middleware.cors import CORSMiddleware
 app: FastAPI = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Update with specific origins in production
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 chat_history: list[Agent_Response] = []
 
